@@ -1,0 +1,73 @@
+body{
+    background-color: #444;
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.notas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notas_echas{
+    margin-top: 20px;
+   text-align: center;
+    background-color: white;
+    height: 400px;
+    width: 800px
+
+}
+
+
+#textarea{
+    border: 2px solid black;  
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 2%;
+}
+
+
+#boton_anotar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#texto{
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    
+
+   #textarea{
+    width: 80%;
+   }
+
+
+    .notas_echas{
+
+        width: 80%
+    
+    }
+
+
+
+
+}
+
+
